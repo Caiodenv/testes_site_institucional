@@ -178,18 +178,15 @@ p{
     .card img {
     width: 100%;
     height: 100%;
-    gap: 40px;
     object-fit: cover; /* Redimensiona e corta a imagem para preencher o card */
     }
     
     .conteudo {
-        width: 100%;
-        height: 100%;
-        text-align: center;
         flex-direction: column;
         opacity: 0; /* Inicialmente, o conteúdo está invisível */
         transform: translateY(20px); /* Move o conteúdo para baixo para prepará-lo para a animação */
         animation: fadeInUp 2s ease-out forwards; /* Aplica a animação "aparecer" */
+        padding: 10px;
     
     }
 
@@ -197,6 +194,8 @@ p{
         object-fit: cover;
 
     }
+  
+
     
 }
 
