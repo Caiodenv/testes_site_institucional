@@ -1,5 +1,4 @@
 
-
 /* Estilo para o conteúdo principal */
 .conteiner {
     overflow: hidden;
@@ -114,9 +113,7 @@
     
     
 }
-div.texto{
-    padding-top: 60px;
-}
+
 
 .imagem img {
     
@@ -157,6 +154,8 @@ p{
     }
 }
 @media only screen and (max-width: 768px)  {
+
+
   
     /* Reduza o tamanho dos cards para dispositivos móveis */
     .card {
@@ -192,6 +191,18 @@ p{
     .imagem{
         object-fit: cover;
 
+    }
+    .texto-univri{
+    line-height: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     }
   
 
