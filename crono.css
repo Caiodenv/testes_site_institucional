@@ -1,0 +1,36 @@
+.nosso-cronograma{
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #0c71c3;
+    border-radius: 26px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 13px;
+    
+
+    
+}
+
+
+
+.p1, .p2{
+    color: black;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    
+}
+.conteudo-2{
+    border-top: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 70px;
+
+}
