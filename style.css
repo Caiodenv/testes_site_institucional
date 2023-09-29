@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
+
+
 
 .nav-border {
     border-bottom: 2px solid #ececec;
@@ -79,7 +82,7 @@ nav {
 
 
 
-@media(max-width: 999px) {
+@media only screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
 
@@ -89,6 +92,7 @@ nav {
     
 
     .nav-list {
+        
         position:absolute;
         top: 11vh;
         right: 0;
@@ -113,11 +117,13 @@ nav {
 
     .mobile-menu {
         display: block;
+        
 
     }
 
     .nav-list.active {
         transform: translateX(0);
+        
         
         
     }
