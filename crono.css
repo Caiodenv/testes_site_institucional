@@ -14,23 +14,23 @@
     margin-right: 30%;
     padding: 13px;
     
-
-    
 }
 
 
-
-.p1, .p2, .p3{
-    color: black;
-    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-    font-style: normal;
-    text-transform: none;
-    text-align: center;
-    
-}
-.conteudo-2{
-    border-top: 1px solid #ccc;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+.informacao{
     padding-top: 70px;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.foto-img{
+border-radius: 15px; 
+width: 100%;
 
 }
+

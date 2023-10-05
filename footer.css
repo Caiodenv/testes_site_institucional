@@ -1,0 +1,26 @@
+.footer-section {
+    background-color: #001F3F; /* Azul marinho escuro */
+    color: #ffffff; /* Cor do texto branco */
+    padding: 70px;
+}
+
+.div_ul-footer {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.li_img {
+    width: 50%;
+    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
+}
+
+.li_img img {
+    width: 100%; /* Faz com que a imagem ocupe 100% da largura da <li> */
+}
+
+@media (max-width: 768px) {
+    .li_img {
+        width: 100%; /* As imagens ocuparão 100% da largura do contêiner pai */
+    }
+}

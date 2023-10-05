@@ -10,7 +10,7 @@
     background-size: cover; /* Para ajustar a imagem de fundo à largura e altura da seção */
     background-repeat: no-repeat; /* Para evitar que a imagem de fundo se repita */
     background-position: center; /* Para centralizar a imagem de fundo */
-    /* Outros estilos para a sua seção, como largura, altura, cores, etc. */
+
     
    
 }
@@ -36,7 +36,7 @@
     object-fit: cover; /* Redimensiona e corta a imagem para preencher o card */
 }
 
-/* CSS para o carrossel */
+/* CSS carrossel */
 .carousel {
     display: flex;
     scroll-snap-type: x mandatory;
@@ -63,16 +63,16 @@
         transform: translateX(0);
     }
     30% {
-        transform: translateX(-220px); /* Ajuste a largura do slide, incluindo o espaço entre os cards */
+        transform: translateX(-220px); /* Ajusta a largura do slide, incluindo o espaço entre os cards */
     }
     55% {
-        transform: translateX(-220px); /* Ajuste a largura do slide, incluindo o espaço entre os cards */
+        transform: translateX(-220px); /* Ajusta a largura do slide, incluindo o espaço entre os cards */
     }
     60% {
-        transform: translateX(-440px); /* Ajuste a largura do slide, incluindo o espaço entre os cards */
+        transform: translateX(-440px); /* Ajusta a largura do slide, incluindo o espaço entre os cards */
     }
     85% {
-        transform: translateX(-440px); /* Ajuste a largura do slide, incluindo o espaço entre os cards */
+        transform: translateX(-440px); /* Ajusta a largura do slide, incluindo o espaço entre os cards */
     }
     90% {
         transform: translateX(0);
