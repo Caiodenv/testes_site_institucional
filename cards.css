@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10%;
+    padding: 8%;
     background-image: url(./fotos/pexels-cottonbro-studio-4033852.jpg);
     background-size: cover; /* Para ajustar a imagem de fundo à largura e altura da seção */
     background-repeat: no-repeat; /* Para evitar que a imagem de fundo se repita */
@@ -19,7 +19,7 @@
 .card {
     border: 1px solid #ccc;
     border-radius: 10px;
-    overflow: hidden;
+    overflow-x: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 200px; /* Largura fixa dos cards */
     height: 200px; /* Altura fixa dos cards */
@@ -31,8 +31,8 @@
 }
 
 .card img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     object-fit: cover; /* Redimensiona e corta a imagem para preencher o card */
 }
 
@@ -41,13 +41,13 @@
     display: flex;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
-    
 }
 
 .slide {
     width: 220px; /* Largura fixa dos slides, incluindo o espaço entre os cards */
     flex-shrink: 0;
     scroll-snap-align: start;
+    
     
 }
 
@@ -93,6 +93,12 @@
     padding: 20px 100px 100px;
     border-top: 1px solid #ccc;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-image: url(./fotos/imagem\ de\ fundo\ azul.jpeg);
+    background-size: cover; /* Para ajustar a imagem de fundo à largura e altura da seção */
+    background-repeat: no-repeat; /* Para evitar que a imagem de fundo se repita */
+    background-position: center; /* Para centralizar a imagem de fundo */
+    /* Outros estilos para a sua seção, como largura, altura, cores, etc. */
+    
     
 
 }
@@ -155,22 +161,11 @@ p{
 }
 @media only screen and (max-width: 768px)  {
 
-
-  
-    /* Reduza o tamanho dos cards para dispositivos móveis */
-    .card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 200px; /* Largura fixa dos cards */
-    height: 200px; /* Altura fixa dos cards */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px; /* Espaçamento entre os cards */
-        
+    .conteiner {
+        overflow-x: auto;
+        justify-content: left;
     }
+
 
     /* Ajuste o tamanho da imagem para dispositivos móveis */
     .card img {
